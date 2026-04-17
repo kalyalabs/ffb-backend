@@ -18,26 +18,33 @@
 
 ```
 docs/
-├── ROADMAP.md                    ← 4-week implementation plan
-├── phase1/                       ← Phase 1: Data annotation & training
+├── README.md                    ← THIS FILE (documentation index)
+├── ROADMAP.md                   ← 4-week implementation plan
+├── phase1/                      ← Phase 1: Data annotation & training
 │   ├── setup/
-│   │   ├── label-studio-setup.md
-│   │   ├── gcp-training-setup.md
+│   │   ├── PHASE1_START.md      ← Quick setup guide
 │   │   └── scripts/
 │   │       ├── setup_label_studio.sh
 │   │       └── setup_label_studio.bat
-│   ├── implementation.md         ← Detailed step-by-step guide
-│   ├── checklist.md              ← Progress tracking
-│   ├── progress.md               ← Session notes & daily log
-│   └── quickstart.md             ← Quick reference
-├── architecture/                 ← Technical deep-dives
-│   ├── triangulation-algorithm.md
-│   └── [future: other components]
-├── reference/                    ← Static reference data
-│   ├── ground-truth.json         ← Validation data
+│   ├── implementation.md        ← Detailed step-by-step guide
+│   ├── checklist.md             ← Progress tracking
+│   ├── progress.md              ← Session notes & daily log
+│   └── quickstart.md            ← Quick reference
+├── architecture/                ← Technical deep-dives
+│   └── triangulation-algorithm.md
+├── reference/                   ← Static reference data
+│   ├── ground-truth.json        ← Validation data
+│   ├── multi-view-*.md          ← Multi-view training resources
 │   └── implementation-status.md
-└── session-logs/                 ← Session continuity
-    └── SESSION_STATUS.md         ← Current session state
+├── session-logs/                ← Session continuity & tracking
+│   ├── SESSION_STATUS.md        ← Current session state
+│   ├── SESSION_CONTINUITY.md    ← Session management
+│   ├── SESSION_1_HANDOFF.md     ← Previous session notes
+│   └── NEXT_SESSION_START.md    ← Quick reference for next session
+└── legacy/                      ← Old AgriAI project docs (archived)
+    ├── API endpoints, deployment, testing guides
+    ├── (Keep for reference, not needed for FFB project)
+    └── [25+ old documentation files]
 ```
 
 ---

@@ -66,10 +66,10 @@ Use this XML template in Label Studio:
 ```xml
 <View>
   <Image name="image" value="$image"/>
-  <RectangleLabeler name="label" toName="image">
-    <Choice value="FFB"/>
-    <Choice value="Overripe"/>
-  </RectangleLabeler>
+  <RectangleLabels name="label" toName="image">
+    <Label value="FFB" background="#000000"/>
+    <Label value="Overripe" background="#992100"/>
+  </RectangleLabels>
 </View>
 ```
 

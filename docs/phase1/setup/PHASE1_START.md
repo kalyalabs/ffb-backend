@@ -73,10 +73,10 @@ docker run -d -p 8080:8080 -v ~/label-studio-data:/label-studio/data \
 ```xml
 <View>
   <Image name="image" value="$image"/>
-  <RectangleLabeler name="label" toName="image">
-    <Choice value="FFB"/>
-    <Choice value="Overripe"/>
-  </RectangleLabeler>
+  <RectangleLabels name="label" toName="image">
+    <Label value="FFB" background="#000000"/>
+    <Label value="Overripe" background="#992100"/>
+  </RectangleLabels>
 </View>
 ```
 
